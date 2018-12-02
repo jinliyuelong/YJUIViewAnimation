@@ -24,6 +24,7 @@
         _circle.strokeColor = [UIColor whiteColor].CGColor;
         _circle.lineWidth = 1;
         _circle.opacity = 0;
+        
         _circle.strokeEnd = _circle.strokeStart = 0;
         [self.layer addSublayer: _circle];
     }
@@ -72,7 +73,7 @@ const NSTimeInterval duration = 1.2;
     [self.circle addAnimation: endAnimation forKey: @"end"];
     
     CABasicAnimation * startAnimation = [CABasicAnimation animationWithKeyPath: @"strokeStart"];
-    startAnimation.beginTime = CACurrentMediaTime() + duration / 2;
+    startAnimation.beginTime = CACurrentMediaTime() + duration / 2;//延迟一般时间后启动
     startAnimation.fromValue = @0;
     startAnimation.toValue = @1;
     startAnimation.removedOnCompletion = YES;
