@@ -1,6 +1,6 @@
 # YJUIViewAnimation
 1. uiview动画 参考大神博客[动画初体验](https://www.jianshu.com/p/6e326068edeb)
-1232
+
 2. Transform和KeyFrame 参考大神博客 [https://www.jianshu.com/p/a071bba99a1b](https://www.jianshu.com/p/a071bba99a1b)
 
 3. Masory约束动画 参考大神博客 [https://www.jianshu.com/p/2a8787919794](https://www.jianshu.com/p/2a8787919794) 写的Masory版本
