@@ -30,6 +30,7 @@
 		C53A040221B2AC3300B2F680 /* YJAnimateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C53A040121B2AC3300B2F680 /* YJAnimateButton.m */; };
 		C53A040521B37A8A00B2F680 /* SoundWaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C53A040421B37A8A00B2F680 /* SoundWaveViewController.m */; };
 		C53A040821B3B61700B2F680 /* ElasticAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C53A040721B3B61700B2F680 /* ElasticAnimationViewController.m */; };
+		C55FF14D21B6A75500DAA0FB /* ShoppingAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FF14C21B6A75500DAA0FB /* ShoppingAnimationViewController.m */; };
 		C5C07EF821B2248A005907DB /* TransformAndkeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C07EF721B2248A005907DB /* TransformAndkeViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +83,8 @@
 		C53A040421B37A8A00B2F680 /* SoundWaveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundWaveViewController.m; sourceTree = "<group>"; };
 		C53A040621B3B61700B2F680 /* ElasticAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElasticAnimationViewController.h; sourceTree = "<group>"; };
 		C53A040721B3B61700B2F680 /* ElasticAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElasticAnimationViewController.m; sourceTree = "<group>"; };
+		C55FF14B21B6A75500DAA0FB /* ShoppingAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingAnimationViewController.h; sourceTree = "<group>"; };
+		C55FF14C21B6A75500DAA0FB /* ShoppingAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingAnimationViewController.m; sourceTree = "<group>"; };
 		C5C07EF621B2248A005907DB /* TransformAndkeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformAndkeViewController.h; sourceTree = "<group>"; };
 		C5C07EF721B2248A005907DB /* TransformAndkeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformAndkeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -157,6 +160,8 @@
 				C53A040421B37A8A00B2F680 /* SoundWaveViewController.m */,
 				C53A040621B3B61700B2F680 /* ElasticAnimationViewController.h */,
 				C53A040721B3B61700B2F680 /* ElasticAnimationViewController.m */,
+				C55FF14B21B6A75500DAA0FB /* ShoppingAnimationViewController.h */,
+				C55FF14C21B6A75500DAA0FB /* ShoppingAnimationViewController.m */,
 			);
 			path = Coranimation;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5C07EF821B2248A005907DB /* TransformAndkeViewController.m in Sources */,
+				C55FF14D21B6A75500DAA0FB /* ShoppingAnimationViewController.m in Sources */,
 				C527426321B211B1006F1D5C /* ViewController.m in Sources */,
 				C53A03F121B272B000B2F680 /* MASLayoutConstraint.m in Sources */,
 				C527426E21B211B3006F1D5C /* main.m in Sources */,

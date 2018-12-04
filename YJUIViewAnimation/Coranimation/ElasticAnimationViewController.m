@@ -43,11 +43,12 @@
 // MARK:  - action
 - (void)animate:(UIButton *)sender{
     CGPoint target = CGPointMake(0, self.view.center.y/2);
-    self.referView.layer.position = target;
-    self.springView.layer.position = target;
+    self.referView.layer.position = CGPointZero;
+    self.springView.layer.position = CGPointZero;
     self.displayLink?[self.displayLink invalidate]:nil;
     self.displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(animateWave)];
     [self.displayLink addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSRunLoopCommonModes];
+   
     CASpringAnimation *move = [CASpringAnimation animationWithKeyPath:@"position"];
     move.fromValue = [NSValue valueWithCGPoint:CGPointZero];
     move.toValue = [NSValue valueWithCGPoint:target];

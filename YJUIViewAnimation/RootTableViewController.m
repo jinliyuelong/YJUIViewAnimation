@@ -29,14 +29,14 @@
 
 - (NSArray *)data{
     if (!_data) {
-        _data = [@[@"uiview动画",@"Transform和KeyFrame",@"Masory约束动画",@"Masory约束动画1",@"支付宝咻一咻动画",@"弹性动画"] copy];
+        _data = [@[@"uiview动画",@"Transform和KeyFrame",@"Masory约束动画",@"Masory约束动画1",@"支付宝咻一咻动画",@"弹性动画",@"购物车动画"] copy];
     }
     return _data;
 }
 
 - (NSArray *)viewControllers{
     if (!_viewControllers) {
-        _viewControllers = [@[@"ViewController",@"TransformAndkeViewController",@"MasoryAnimationViewController",@"MasoryAnimationViewController1",@"SoundWaveViewController",@"ElasticAnimationViewController"] copy];
+        _viewControllers = [@[@"ViewController",@"TransformAndkeViewController",@"MasoryAnimationViewController",@"MasoryAnimationViewController1",@"SoundWaveViewController",@"ElasticAnimationViewController",@"ShoppingAnimationViewController"] copy];
     }
     return _viewControllers;
 }
