@@ -10,7 +10,6 @@
 
 @interface RootTableViewController ()
 @property (nonatomic, copy) NSArray *data;
-@property (nonatomic, copy) NSArray *viewControllers;
 @end
 
 @implementation RootTableViewController
@@ -29,20 +28,43 @@
 
 - (NSArray *)data{
     if (!_data) {
-        _data = [@[@"uiview动画",@"Transform和KeyFrame",@"Masory约束动画",@"Masory约束动画1",@"支付宝咻一咻动画",@"弹性动画",@"购物车动画"] copy];
+        _data = [@[@{@"Uivew动画":@[@{@"uiview动画":@"ViewController"},
+                                       @{@"Transform和KeyFrame":@"TransformAndkeViewController"},
+                                       @{@"Masory约束动画":@"MasoryAnimationViewController"},
+                                  @{@"Masory约束动画1":@"MasoryAnimationViewController1"}]},
+                   @{@"Coranimation动画":@[@{@"支付宝咻一咻动画":@"SoundWaveViewController"},
+                                     @{@"弹性动画":@"ElasticAnimationViewController"},
+                                         @{@"购物车动画":@"ShoppingAnimationViewController"},
+                                          @{@"maskview动画":@"MaskAnimationViewController"}]},
+                   @{@"转场动画":@[@{@"转场动画":@"TrasitionRootViewController"}]}
+                   
+                   ] copy];
     }
     return _data;
 }
 
-- (NSArray *)viewControllers{
-    if (!_viewControllers) {
-        _viewControllers = [@[@"ViewController",@"TransformAndkeViewController",@"MasoryAnimationViewController",@"MasoryAnimationViewController1",@"SoundWaveViewController",@"ElasticAnimationViewController",@"ShoppingAnimationViewController"] copy];
-    }
-    return _viewControllers;
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+    UILabel *view = [[UILabel alloc] init];
+    view.backgroundColor = [UIColor whiteColor];
+    view.font = [UIFont systemFontOfSize:14];
+    view.textAlignment = NSTextAlignmentCenter;
+    NSDictionary *dic = self.data[section];
+    view.text = dic.allKeys.firstObject;
+   
+    return view;
+    
+}
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    return 30;
+}
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    NSDictionary *dic = self.data[section];
+    NSArray *array = dic.allValues.firstObject;
+    return array.count;
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return self.data.count;
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+     return self.data.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -50,14 +72,20 @@
     if (!cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
     }
-    cell.textLabel.text = _data[indexPath.row];
+    
+    NSDictionary *dic1 = self.data[indexPath.section];
+    NSArray *array = dic1.allValues.firstObject;
+    NSDictionary *dic = array[indexPath.row];
+    cell.textLabel.text = dic.allKeys.firstObject;
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-   
-
-    [self.navigationController pushViewController:[[NSClassFromString(self.viewControllers[indexPath.row]) alloc] init] animated:YES];
+    NSDictionary *dic1 = self.data[indexPath.section];
+    NSArray *array = dic1.allValues.firstObject;
+    NSDictionary *dic = array[indexPath.row];
+    NSString *viewcontroller = dic.allValues.firstObject;
+    [self.navigationController pushViewController: [[NSClassFromString(viewcontroller) alloc] init] animated:YES];
 }
 
 

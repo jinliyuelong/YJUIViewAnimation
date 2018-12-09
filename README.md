@@ -9,3 +9,6 @@
 4. 支付宝咻一咻动画 参考大神博客 [https://www.jianshu.com/p/af5337ddfc00](https://www.jianshu.com/p/af5337ddfc00) 写的oc版本 
 
 5. 弹性动画 参考大神博客  参考大神博客 [https://www.jianshu.com/p/af5337ddfc00](https://www.jianshu.com/p/af5337ddfc00) 写的oc版本
+6. mask动画 [https://www.jianshu.com/p/111c7f3fee49](https://www.jianshu.com/p/111c7f3fee49)
+
+## 转场动画

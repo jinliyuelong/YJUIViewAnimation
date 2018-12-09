@@ -31,7 +31,13 @@
 		C53A040521B37A8A00B2F680 /* SoundWaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C53A040421B37A8A00B2F680 /* SoundWaveViewController.m */; };
 		C53A040821B3B61700B2F680 /* ElasticAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C53A040721B3B61700B2F680 /* ElasticAnimationViewController.m */; };
 		C55FF14D21B6A75500DAA0FB /* ShoppingAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FF14C21B6A75500DAA0FB /* ShoppingAnimationViewController.m */; };
+		C55FF15321B7FDD600DAA0FB /* TrasitionRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FF15221B7FDD600DAA0FB /* TrasitionRootViewController.m */; };
+		C55FF15721B8017A00DAA0FB /* PresentOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FF15621B8017A00DAA0FB /* PresentOneViewController.m */; };
+		C55FF15A21B803E600DAA0FB /* YJPresentOneTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FF15921B803E600DAA0FB /* YJPresentOneTransition.m */; };
+		C55FF15D21B8040800DAA0FB /* PresentTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FF15C21B8040800DAA0FB /* PresentTwoViewController.m */; };
+		C55FF16021B811F800DAA0FB /* YJInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C55FF15F21B811F800DAA0FB /* YJInteractiveTransition.m */; };
 		C5C07EF821B2248A005907DB /* TransformAndkeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C07EF721B2248A005907DB /* TransformAndkeViewController.m */; };
+		C5EC32F721BCAA3D0044A9C4 /* MaskAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EC32F621BCAA3D0044A9C4 /* MaskAnimationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,8 +91,20 @@
 		C53A040721B3B61700B2F680 /* ElasticAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElasticAnimationViewController.m; sourceTree = "<group>"; };
 		C55FF14B21B6A75500DAA0FB /* ShoppingAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingAnimationViewController.h; sourceTree = "<group>"; };
 		C55FF14C21B6A75500DAA0FB /* ShoppingAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingAnimationViewController.m; sourceTree = "<group>"; };
+		C55FF15121B7FDD600DAA0FB /* TrasitionRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrasitionRootViewController.h; sourceTree = "<group>"; };
+		C55FF15221B7FDD600DAA0FB /* TrasitionRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrasitionRootViewController.m; sourceTree = "<group>"; };
+		C55FF15521B8017A00DAA0FB /* PresentOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentOneViewController.h; sourceTree = "<group>"; };
+		C55FF15621B8017A00DAA0FB /* PresentOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentOneViewController.m; sourceTree = "<group>"; };
+		C55FF15821B803E600DAA0FB /* YJPresentOneTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJPresentOneTransition.h; sourceTree = "<group>"; };
+		C55FF15921B803E600DAA0FB /* YJPresentOneTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJPresentOneTransition.m; sourceTree = "<group>"; };
+		C55FF15B21B8040800DAA0FB /* PresentTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentTwoViewController.h; sourceTree = "<group>"; };
+		C55FF15C21B8040800DAA0FB /* PresentTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentTwoViewController.m; sourceTree = "<group>"; };
+		C55FF15E21B811F800DAA0FB /* YJInteractiveTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJInteractiveTransition.h; sourceTree = "<group>"; };
+		C55FF15F21B811F800DAA0FB /* YJInteractiveTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJInteractiveTransition.m; sourceTree = "<group>"; };
 		C5C07EF621B2248A005907DB /* TransformAndkeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformAndkeViewController.h; sourceTree = "<group>"; };
 		C5C07EF721B2248A005907DB /* TransformAndkeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformAndkeViewController.m; sourceTree = "<group>"; };
+		C5EC32F521BCAA3D0044A9C4 /* MaskAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaskAnimationViewController.h; sourceTree = "<group>"; };
+		C5EC32F621BCAA3D0044A9C4 /* MaskAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskAnimationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +137,7 @@
 		C527425D21B211B1006F1D5C /* YJUIViewAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				C55FF15021B7FC4400DAA0FB /* Trasition */,
 				C53A03D221B2727700B2F680 /* ThirdTools */,
 				C53A03D121B267F200B2F680 /* Coranimation */,
 				C53A03CE21B2570C00B2F680 /* UivewAnimation */,
@@ -162,6 +181,8 @@
 				C53A040721B3B61700B2F680 /* ElasticAnimationViewController.m */,
 				C55FF14B21B6A75500DAA0FB /* ShoppingAnimationViewController.h */,
 				C55FF14C21B6A75500DAA0FB /* ShoppingAnimationViewController.m */,
+				C5EC32F521BCAA3D0044A9C4 /* MaskAnimationViewController.h */,
+				C5EC32F621BCAA3D0044A9C4 /* MaskAnimationViewController.m */,
 			);
 			path = Coranimation;
 			sourceTree = "<group>";
@@ -204,6 +225,31 @@
 				C53A03EC21B272B000B2F680 /* MASViewAttribute.m */,
 			);
 			path = Masonry;
+			sourceTree = "<group>";
+		};
+		C55FF15021B7FC4400DAA0FB /* Trasition */ = {
+			isa = PBXGroup;
+			children = (
+				C55FF15421B8008100DAA0FB /* PresentOneController */,
+				C55FF15121B7FDD600DAA0FB /* TrasitionRootViewController.h */,
+				C55FF15221B7FDD600DAA0FB /* TrasitionRootViewController.m */,
+				C55FF15E21B811F800DAA0FB /* YJInteractiveTransition.h */,
+				C55FF15F21B811F800DAA0FB /* YJInteractiveTransition.m */,
+			);
+			path = Trasition;
+			sourceTree = "<group>";
+		};
+		C55FF15421B8008100DAA0FB /* PresentOneController */ = {
+			isa = PBXGroup;
+			children = (
+				C55FF15521B8017A00DAA0FB /* PresentOneViewController.h */,
+				C55FF15621B8017A00DAA0FB /* PresentOneViewController.m */,
+				C55FF15821B803E600DAA0FB /* YJPresentOneTransition.h */,
+				C55FF15921B803E600DAA0FB /* YJPresentOneTransition.m */,
+				C55FF15B21B8040800DAA0FB /* PresentTwoViewController.h */,
+				C55FF15C21B8040800DAA0FB /* PresentTwoViewController.m */,
+			);
+			path = PresentOneController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,8 +327,11 @@
 				C55FF14D21B6A75500DAA0FB /* ShoppingAnimationViewController.m in Sources */,
 				C527426321B211B1006F1D5C /* ViewController.m in Sources */,
 				C53A03F121B272B000B2F680 /* MASLayoutConstraint.m in Sources */,
+				C55FF15321B7FDD600DAA0FB /* TrasitionRootViewController.m in Sources */,
 				C527426E21B211B3006F1D5C /* main.m in Sources */,
+				C55FF15D21B8040800DAA0FB /* PresentTwoViewController.m in Sources */,
 				C53A03FF21B2A92C00B2F680 /* MasoryAnimationViewController1.m in Sources */,
+				C55FF16021B811F800DAA0FB /* YJInteractiveTransition.m in Sources */,
 				C53A03F921B272C900B2F680 /* MasoryAnimationViewController.m in Sources */,
 				C527426021B211B1006F1D5C /* AppDelegate.m in Sources */,
 				C53A040521B37A8A00B2F680 /* SoundWaveViewController.m in Sources */,
@@ -290,11 +339,14 @@
 				C53A03F221B272B000B2F680 /* NSArray+MASAdditions.m in Sources */,
 				C53A040821B3B61700B2F680 /* ElasticAnimationViewController.m in Sources */,
 				C53A03EF21B272B000B2F680 /* MASCompositeConstraint.m in Sources */,
+				C5EC32F721BCAA3D0044A9C4 /* MaskAnimationViewController.m in Sources */,
 				C53A040221B2AC3300B2F680 /* YJAnimateButton.m in Sources */,
 				C53A03F021B272B000B2F680 /* MASConstraintMaker.m in Sources */,
+				C55FF15721B8017A00DAA0FB /* PresentOneViewController.m in Sources */,
 				C53A03F321B272B000B2F680 /* View+MASAdditions.m in Sources */,
 				C53A03EE21B272B000B2F680 /* ViewController+MASAdditions.m in Sources */,
 				C527427621B215E6006F1D5C /* RootTableViewController.m in Sources */,
+				C55FF15A21B803E600DAA0FB /* YJPresentOneTransition.m in Sources */,
 				C53A03F521B272B000B2F680 /* MASViewConstraint.m in Sources */,
 				C53A03ED21B272B000B2F680 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				C53A03F421B272B000B2F680 /* MASConstraint.m in Sources */,
